@@ -1,0 +1,314 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+ }
+ .ll{
+   background-image: url(images/1t0J.gif);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+ }
+ /* Home */
+ .home {
+   box-sizing: border-box;
+   background-color: black;
+   width: 450px;
+   height: 100px;
+   margin-left: 500px;
+   position:absolute;
+   top: 200px; 
+   z-index: -1;
+}
+.b1 {
+   color: white;
+
+}
+.home img {
+   box-sizing: border-box;
+   border: 5px solid rgba(0, 0, 0, 0.73);
+   margin-left: -300px;
+   margin-top: -100px;
+   
+}
+.home h1{
+   margin-left: 20px;
+   margin-top:0px;
+   color: white;
+
+}
+html{
+   scroll-behavior: smooth;
+}
+ .container{
+    padding: 10px 10%;
+    padding-top: 50px;
+    z-index: 9999;
+ }
+ .con {
+    color:rgb(69, 75, 96);
+    margin-top: -65px;
+    font-size: 30px;
+    margin-left: 120px;
+ }
+ ul {
+    margin-top: -60px;
+    margin-left: 200px;
+    font-size: 25px;
+ }
+ .main-menu {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(17, 14, 14);
+    position: fixed;
+    left: 0;
+    top:0;
+ }
+ nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 200px;
+ }
+ nav ul li{
+    display:inline-block;
+    margin:10px 20px;
+    list-style: none;
+ }
+ nav ul li a{
+    color:#f4efefb3;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+ }
+ nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #2216a890;
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+    transition: 1s;
+ }
+ nav ul li a:hover::after{
+    width: 100%;
+ }
+.selfie {
+}
+ body {
+    color:#d3cac8b3;
+ }
+ .logo {
+   margin-left: 25px;
+   margin-top: 5px;
+ }
+ .about-me {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color:#d3cac8b3;
+    width: 1400px;
+    height: 375px;
+    margin-left: 30px;
+    margin-top: 500px;
+    font-size: 25px;
+ }
+ .about-me header{
+    margin-top: -225px;
+    padding: 10px;
+    margin-left: 190px;
+    font-size: 40px;
+ }
+ .horizontal-line {
+    background-color: rgb(144, 140, 136);
+    height:1px;
+    width: 100;
+    margin-top: -15px;
+ }
+ .young{
+    border: 5px solid rgba(16, 15, 15, 0.73);
+ }
+ .p{
+    padding-top: 10px;
+    padding-left: 155px;
+ }
+ .d{
+    margin-top: -5px;
+ }
+ .images {
+    margin-left: 90px;
+    margin-top: 15px;
+ }
+ .food {
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    background-color: rgba(0, 0, 0, 0.843);
+    width: 525px;
+    height: 250px;
+    background-size: 450px 100px;
+    margin-top: 15px;
+    margin-left: 850px;
+    font-size: 20px;
+ }
+ .food p {
+ }
+ .food img{
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    margin-left: 25px;
+ }
+ .friends {
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    background-color: rgba(0, 0, 0, 0.843);
+    width: 550px;
+    height: 250px;
+    background-size: 450px 100px;
+    margin-top: 5px;
+    margin-left: 800px;
+    font-size: 20px;
+ }
+ .friends img {
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    margin-left: 3px;
+ }
+ .Games {
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    background-color: rgba(0, 0, 0, 0.843);
+    width: 700px;
+    height: 250px;
+    background-size: 450px 100px;
+    margin-top: -250px;
+    margin-left: 90px;
+    font-size: 20px;
+ }
+ .Games img{
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    margin-left: 35px;
+ }
+ .Movies {
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    background-color: rgba(0, 0, 0, 0.843);
+    width: 700px;
+    height: 250px;
+    background-size: 450px 100px;
+    margin-top: -505px;
+    margin-left: 140px;
+    font-size: 20px;
+ }
+ .Movies img{
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    margin-left: 20px;
+ }
+ .horizontal-line1 {
+    background-color: rgb(0, 0, 0);
+    height:3px;
+    width: 1400px;
+    margin-top: 500px;
+    margin-left: 30px;
+ }
+ /* Experience */
+.experience{
+   color:#d3cac8b3;
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    background-color: rgba(0, 0, 0, 0.843);
+    width: 1400px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.h2{
+    margin-left: 650px;
+}
+.h3 {
+    font-size: 25px;
+}
+.horizontal-line2 {
+    height: 3px;
+    background-color: rgba(137, 130, 130, 0.539);
+    width: 1300px;
+    margin-left: 50px;
+}
+/* Projects*/
+.horizontal-line3 {
+    background-color: rgb(0, 0, 0);
+    height:3px;
+    width: 1450px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.tc1 {
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    background-color: rgba(0, 0, 0, 0.843);
+    width: 500px;
+    color:#d3cac8b3;
+    border-radius: 5%;
+    margin-left: 200px;
+}
+.tc{
+    margin-left: 20px;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    border-radius: 5%;
+}
+.rps1 {
+    box-sizing: border-box;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    background-color: rgba(0, 0, 0, 0.843);
+    width: 500px;
+    color:#d3cac8b3;
+    border-radius: 5%;
+    margin-left: 750px;
+    margin-top: -415px;
+}
+.rps{
+    margin-left: 20px;
+    border: 5px solid rgba(16, 15, 15, 0.73);
+    border-radius: 5%;
+}
+.h4 {
+    margin-left: 670px;
+}
+.horizontal-line4{
+    background-color: rgb(0, 0, 0);
+    height:3px;
+    width: 1450px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+/* Goal */
+.logo1 {
+   background-color: aliceblue;
+}
+.h7{
+   font-size: 25px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+}
+.horizontal-line5{ 
+   background-color: rgb(0, 0, 0);
+   height:3px;
+   width: 1450px;
+   margin-top: 25px;
+   margin-left: 10px;
+}
+.gallery {
+   box-sizing: border-box;
+   border: 5px solid rgba(16, 15, 15, 0.73);
+   background-color: rgba(0, 0, 0, 0.843);
+   width: 1350px;
+   color:#d3cac8b3;
+   margin-left: 60px;
+   margin-top: 20px;
+   font-size: 20px;
+}
+.ftlom {
+   margin-left: 430px;
+}
